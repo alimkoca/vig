@@ -1,0 +1,6 @@
+Basic vigenere cipher utility.
+
+```
+help:
+	./vig [plain text] [key]
+```
