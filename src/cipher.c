@@ -5,14 +5,6 @@
 
 void vig_cipher(char **arg)
 {
-	/*
-	 * First argument is plain text
-	 * and second is key.
-	 * NOTE: arg[0] is name of file
-	 * and cipher is based on ascii table,
-	 * so can be every character, not only
-	 * alphabet.
-	 */
 	char *pt = arg[1];
 	char *key = arg[2];
 
